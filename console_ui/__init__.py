@@ -1,4 +1,4 @@
-from console_ui import app, box, text, each, react, on_key
+from .console_ui import app, box, text, each, react, on_key
 from getkey import keys
 
 __all__ = [
