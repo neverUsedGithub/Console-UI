@@ -2,6 +2,12 @@
 
 A library for creating console user interfaces.
 
+# Installation
+
+```bash
+pip install --use-pep517 git+https://github.com/neverUsedGithub/Console-UI.git
+```
+
 # Usage
 ### "Hello, World!" app
 ```python
