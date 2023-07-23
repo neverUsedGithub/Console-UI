@@ -8,7 +8,7 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
 ]
-install_requires = [
+dependencies = [
     "boxpy @ git+ssh://git@github.com/neverUsedGithub/Boxpy.git>=0.0.1",
     "getkey>=0.6.5"
 ]
