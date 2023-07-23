@@ -254,8 +254,7 @@ class EventHandler:
     self.events[event] = self.events.get(event, []) + [ callback ]
 
   def trigger_event(self, event: str, *args):
-    if self.events[event]:
-      for cb in self.events[event]:
+    for cb in self.events.get(event, []):
         cb(*args)
 
 def on_key():

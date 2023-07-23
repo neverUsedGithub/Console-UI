@@ -8,7 +8,7 @@ A library for creating console user interfaces.
 from console_ui import text
 
 @app()
-def main():
+def main(ctx):
     return (
         text("Hello, World!")
     )
