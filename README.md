@@ -3,8 +3,8 @@
 A library for creating console user interfaces.
 
 # Usage
+### "Hello, World!" app
 ```python
-# "Hello, World!" app
 from console_ui import text
 
 @app()
@@ -13,8 +13,8 @@ def main():
         text("Hello, World!")
     )
 ```
+### Counter App
 ```python
-# Counter app
 from console_ui import text, on_key
 
 @app(
