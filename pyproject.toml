@@ -9,6 +9,6 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    "boxpy @ git+ssh://git@github.com/neverUsedGithub/Boxpy.git",
+    "boxpy @ git+https://github.com/neverUsedGithub/Boxpy.git",
     "getkey>=0.6.5"
 ]
