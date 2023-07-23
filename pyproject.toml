@@ -1,5 +1,5 @@
 [project]
-name = "ConsoleUI"
+name = "console_ui"
 version = "0.0.1"
 description = "A library for creating console user interfaces."
 readme = "README.md"
