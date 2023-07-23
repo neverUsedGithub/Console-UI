@@ -14,7 +14,7 @@ setup(
     ],
     include_package_data=True,
     install_requires = [
-        "git+https://github.com/neverUsedGithub/Boxpy.git>=0.0.1",
+        "boxpy @ git+ssh://git@github.com/neverUsedGithub/Boxpy.git>=0.0.1",
         "getkey>=0.6.5"
     ],
 )
